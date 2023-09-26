@@ -13,6 +13,10 @@ int temp = 0;
 int min = -999;
 int pos = 0;
 int flag;
+if (array == NULL || size < 2)
+{
+return;
+}
 for (i = 0; i < size - 1; i++)
 {
 min = array[i];
